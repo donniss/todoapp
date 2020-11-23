@@ -1,0 +1,52 @@
+.custom-input{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.custom-button{
+    background-color: purple;
+    border: 1 px solid purple;
+    border-radius: 2px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1.15rem;
+}
+
+.box--container{
+    background-color: lightgray;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 25px;
+    height: auto;
+    color: black;
+}
+
+.box--content {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin: 15px auto;
+    padding: 10px 0;
+    width: 50%;
+    color: white;
+    border-radius: 5px;
+}
+
+.box--content > button {
+    align-self: center;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.box--flex {
+    display: flex;
+}
